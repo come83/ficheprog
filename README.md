@@ -174,6 +174,23 @@ faire Calcul du temps de réponse d’une tâche 121
 
 
 
+* Dans un système d’exploitation LINUX classique : 
+    * Un processus a toujours une priorité même si nous ne la fixons pas par programme
+
+* Quel(s) est(sont) les caractéristique(s) d'un tube(pipe) utilisé dans la communication inter-process? 
+    * FIFO
+    * L'information disparaît après lecture 
+
+* Quelle(s) politique(s) d'ordonnancement est/sont dynamique(s) ? 
+    * Earliest Deadline First (EDF)
+
+* Parmi les exemples sur le problème de synchronisation entre processus, nous pouvons citer 
+    * Producteurs/consommateurs 
+    * Rédacteurs / lecteurs
+
+
+
+
 
 * Avantages EDF :
     * EDF est un algorithme d'ordonnancement qui choisit toujours la tâche dont la date limite est la plus proche. 
