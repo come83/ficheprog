@@ -134,7 +134,11 @@ faire Calcul du temps de réponse d’une tâche 121
     * Géré avec une file d'attente FIFO
 
 
-DE : 
+## DE 
+
+* Notion tps réel : 
+
+    * Un système est dit temps réel lorsque l'information après acquisition et traitement reste encore pertinente. Le système respecte des contraintes temporelles (tâches et actions dans un temps fini et borné). 
 
 * SE vs RTSE
 
@@ -146,6 +150,15 @@ DE :
 | incertitude des temps | primitives de synchonisation |
 | noyau préemptif | noyau non preamptif | 
 | gestion des E/S génère des tps morts/blocages | respecte la norme POSIX |
+
+
+* Citer quatre paramètres d’une tâche temps réel pouvant être utilisés pour avoir une politique d’ordonnancement dynamique et donner le nom de l’ordonnanceur
+    * priorité 
+    * echeance absolue
+    * période
+    * cout 
+    * EDF
+
 
 * Pb inversion de priorité 
 
@@ -160,12 +173,6 @@ DE :
     * chaque tâche possède une priorité dynamique (max entre plafond et statique )
 
 
-* Citer quatre paramètres d’une tâche temps réel pouvant être utilisés pour avoir une politique d’ordonnancement dynamique et donner le nom de l’ordonnanceur
-    * priorité 
-    * echeance absolue
-    * période
-    * cout 
-    * EDF
 
 
 * Avantages EDF :
